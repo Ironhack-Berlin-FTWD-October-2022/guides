@@ -17,8 +17,8 @@ $ ironlauncher <ProjectName>
 ### Push the the project to GitHub - you have to also copy paste the line to add the remote repository
 
 ```bash
-$ git add remote url // copy the line from GitHub to add the remote repository
 $ git init
+$ git remote add origin <url to your repository> // Copy this line from GitHub after you created your repository
 $ git add .
 $ git commit -m "initial commit"
 $ git push origin master
