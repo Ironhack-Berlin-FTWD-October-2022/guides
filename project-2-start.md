@@ -1,21 +1,27 @@
 # Project 2 Start
 
-### One team member creates the repo on GitHub either in their personal account or as an organization. Then you add the others as collaborators. -> Settings -> Manage access
+### Setup repository on GitHub
 
-### Start the project with Ironlauncher
+One team member creates the repository on GitHub either in their **personal account** or as an **organization**.  
+Add your other teammembers as collaborators:  
+Settings -> Manage access
 
+### Setup the project with Ironlauncher
+
+Use Ironlauncher to create the basic structure for your project:  
 ```bash
 $ npx ironlauncher@latest <ProjectName>
 ```
-Choose: 'views' and 'no authorization'  
+Choose: `views` and `no authorization`  
 
-If ironlauncher is installed globally:
+If Ironlauncher is installed globally:
 ```bash
 $ ironlauncher <ProjectName>
 ```
 
-### Push the the project to GitHub - you have to also copy paste the line to add the remote repository
+### Push your project to GitHub
 
+Push the created project to GitHub:
 ```bash
 $ git init
 $ git remote add origin <url to your repository> // Copy this line from GitHub after you created your repository
@@ -24,6 +30,7 @@ $ git commit -m "initial commit"
 $ git push origin master
 ```
 
-### Then the other team menbers clone the project to their computers
+### Collaborate with other team members
 
-In the repository on GitHub go to Settings -> Manage Access and add the other team members as collaborators.
+Your other teammembers can now clone the project from GitHub.  
+They should **not** fork the project.
